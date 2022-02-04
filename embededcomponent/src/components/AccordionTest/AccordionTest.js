@@ -12,7 +12,7 @@ const AccordionTest = () => {
   function Body(props) {
     return (
       <div>
-        <h1>This is a sample body</h1>
+        <h1>This is a sample body1!!</h1>
         <p>This is a sample text</p>
         <img src="https://source.unsplash.com/random/400x200" />
       </div>
@@ -21,7 +21,7 @@ const AccordionTest = () => {
   return (
     <div className={styles.AccordionTest} data-testid="AccordionTest">
       <ParentComponent>
-        <Header name="Sara" />
+        <Header name="Cualquier Cosa" />
         <Body />
       </ParentComponent>
     </div>
